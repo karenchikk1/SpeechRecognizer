@@ -1,0 +1,27 @@
+SpeechRecognizer/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── speech_recognition.py
+│   ├── preprocess.py
+│   └── postprocess.py
+├── data/
+│   ├── audio/
+│   └── transcripts/
+├── scripts/
+│   ├── train_model.py
+│   └── test_recognition.py
+├── tests/
+│   ├── test_speech_recognition.py
+│   ├── test_preprocess.py
+│   └── test_postprocess.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
